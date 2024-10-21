@@ -4,71 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projetos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="port.css"> 
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Sobre Mim</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="index.html#contato">Contato</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">AC</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Sobre Mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projetos">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <main>
+    <main class="container mt-5">
         <section id="projetos">
-            <h2>Projetos</h2>
-            <div class="card">
-                <img src="IMG/curriculo.png" alt="Projeto 1">
-                <div class="card-content">
-                    <h3>Curriculo Online</h3>
+            <h2 class="text-center">Projetos</h2>
+            <div class="card mb-4">
+                <h3 class="card-header">Currículo Online</h3>
+                <div class="card-body text-center">
+                    <img src="IMG/curri.png" class="img-fluid" alt="Currículo Online Preview">
                     <p>Tecnologias utilizadas: HTML, CSS</p>
-                    <p><a href="https://andfla98.github.io/Curr-culo/">Acessar Page</a> | <a href="https://github.com/andfla98/Curr-culo">Repositório</a></p>
+                    <p><a href="https://andfla98.github.io/Curr-culo" class="btn btn-primary">Ver Projeto</a> | <a href="https://github.com/andfla98/Curr-culo" class="btn btn-secondary">Repositório</a></p>
                 </div>
             </div>
 
-            <div class="card">
-                <img src="IMG/acai.jpg" alt="Projeto 2">
-                <div class="card-content">
-                    <h3>Açaiteria</h3>
+            <div class="card mb-4">
+                <h3 class="card-header">Açaiteria</h3>
+                <div class="card-body text-center">
+                    <img src="IMG/pre_açai.png" class="img-fluid" alt="Açaiteria Preview">
                     <p>Tecnologias utilizadas: HTML, CSS</p>
-                    <p><a href="https://andfla98.github.io/A-ai/">Acessar Page</a> | <a href="https://github.com/andfla98/A-ai">Repositório</a></p>
+                    <p><a href="https://andfla98.github.io/A-ai" class="btn btn-primary">Ver Projeto</a> | <a href="https://github.com/andfla98/A-ai" class="btn btn-secondary">Repositório</a></p>
                 </div>
             </div>
 
-            <div class="card">
-                <img src="IMG/yoga.jpg" alt="Projeto 3">
-                <div class="card-content">
-                    <h3>Studio de Yoga</h3>
+            <div class="card mb-4">
+                <h3 class="card-header">Studio de Yoga</h3>
+                <div class="card-body text-center">
+                    <img src="IMG/pre_yoga.png" class="img-fluid" alt="Studio de Yoga Preview">
                     <p>Tecnologias utilizadas: HTML, CSS</p>
-                    <p><a href="https://andfla98.github.io/Studio-Yoga/">Acessar Page</a> | <a href="https://github.com/andfla98/Studio-Yoga">Repositório</a></p>
+                    <p><a href="https://andfla98.github.io/Studio-Yoga" class="btn btn-primary">Ver Projeto</a> | <a href="https://github.com/andfla98/Studio-Yoga" class="btn btn-secondary">Repositório</a></p>
                 </div>
             </div>
 
-            <div class="card">
-                <img src="IMG/morada.png" alt="Projeto 4">
-                <div class="card-content">
-                    <h3>Banda Fanpage</h3>
+            <div class="card mb-4">
+                <h3 class="card-header">Banda Fanpage</h3>
+                <div class="card-body text-center">
+                    <img src="IMG/pre_banda.png" class="img-fluid" alt="Banda Fanpage Preview">
                     <p>Tecnologias utilizadas: HTML, CSS</p>
-                    <p><a href="https://andfla98.github.io/Banda-Page/">Acessar Page</a> | <a href="https://github.com/andfla98/Banda-Page">Repositório</a></p>
+                    <p><a href="https://andfla98.github.io/Banda-Page" class="btn btn-primary">Ver Projeto</a> | <a href="https://github.com/andfla98/Banda-Page" class="btn btn-secondary">Repositório</a></p>
                 </div>
             </div>
 
-            <div class="card">
-                <img src="IMG/h.png" alt="Projeto 5">
-                <div class="card-content">
-                    <h3>Hamburgueria</h3>
+            <div class="card mb-4">
+                <h3 class="card-header">Hamburgueria</h3>
+                <div class="card-body text-center">
+                    <img src="IMG/pre_ham.png" class="img-fluid" alt="Hamburgueria Preview">
                     <p>Tecnologias utilizadas: HTML, CSS</p>
-                    <p><a href="https://andfla98.github.io/Hamburgueria/">Acessar Page</a> | <a href="https://github.com/andfla98/Hamburgueria">Repositório</a></p>
+                    <p><a href="https://andfla98.github.io/Hamburgueria" class="btn btn-primary">Ver Projeto</a> | <a href="https://github.com/andfla98/Hamburgueria" class="btn btn-secondary">Repositório</a></p>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="bg-dark text-white text-center p-3 mt-5">
         <p>&copy; 2024 Anderson Costa</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
